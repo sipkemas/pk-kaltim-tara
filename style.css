@@ -55,8 +55,8 @@ body {
   position: fixed;
   inset: 0;
   z-index: 9999;
-  /* Foto kantor kanwil sebagai background */
-  background-image: url("kantor.jpg");
+  /* Foto kantor  sebagai background */
+  background-image: url("./kanwil.jpg");
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
