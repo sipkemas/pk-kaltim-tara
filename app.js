@@ -1426,6 +1426,7 @@ var FOLDER_META = {
     label: "Laporan Registrasi &amp; Litmas",
     ico: "🗂️",
     bg: "#f0fdf4",
+    ext: "Excel Harian &amp; Bulanan",
   },
   pengawasan: { label: "Laporan Pengawasan", ico: "🔍", bg: "#eff6ff" },
   pendampingan: { label: "Laporan Pendampingan", ico: "🤝", bg: "#fffbeb" },
@@ -1468,7 +1469,7 @@ function renderFolderList(unit) {
         '<div class="lapbul-folder-text"><div class="lapbul-folder-name">' +
         m.label +
         "</div>" +
-        '<div class="lapbul-folder-ext">Excel · Bulanan</div></div>' +
+        '<div class="lapbul-folder-ext">' + (m.ext || 'Excel · Bulanan') + '</div></div>' +
         '<div class="lapbul-folder-arr">↗</div></a>'
       );
     } else {
