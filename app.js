@@ -958,11 +958,13 @@ function buildLaporan(smr, bpp, trk, jft, hari, pukul, nama, nip) {
     out = "";
   out +=
     "Laporan Harian Data Pembimbing Kemasyarakatan dan Klien Balai Pemasyarakatan Wilayah Kalimantan Timur-Utara\n\n";
-  out += "Yth.\nDirektur Pembimbingan Kemasyarakatan\n\n";
+  out += "Yth.\nKepala Kantor Wilayah Direktorat Jenderal Pemasyarakatan Kalimantan Timur-Utara\n\n";
   out +=
     "Dari :\nKepala Bidang Pembimbingan Kemasyarakatan Kanwil Direktorat Jenderal Pemasyarakatan Kalimantan Timur\n\n";
   out +=
-    "Tembusan :\nDirektur Jenderal Pemasyarakatan Kementerian Imigrasi dan Pemasyarakatan RI\n\n";
+    "Tembusan :\n" +
+    "1. Direktur Jenderal Pemasyarakatan Kementerian Imigrasi dan Pemasyarakatan\n" +
+    "2. Direktur Pembimbingan Kemasyarakatan\n\n";
   out +=
     "Bersama ini kami sampaikan Laporan Harian Data Pembimbing Kemasyarakatan dan Klien Balai Pemasyarakatan Wilayah Kalimantan Timur-Utara pada \n";
   out += "Hari/Tgl\t: " + hari + "\nPukul   \t: " + pukul + "\n";
